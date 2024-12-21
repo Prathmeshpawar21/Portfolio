@@ -11,8 +11,8 @@ const Work = ({ isDesktop }) => {
   const tabItems = useMemo(
     () => [
       {
-        title: "Dukaan",
-        value: "dukaan",
+        title: "STYLIO",
+        value: "stylio store",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
@@ -21,8 +21,8 @@ const Work = ({ isDesktop }) => {
         ),
       },
       {
-        title: "Aviate",
-        value: "Aviate",
+        title: "ZSCALER",
+        value: "zscaler",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
@@ -31,8 +31,8 @@ const Work = ({ isDesktop }) => {
         ),
       },
       {
-        title: "Spacenos",
-        value: "spacenos",
+        title: "APPLICATION SQUARE",
+        value: "Application square infotech pvt ltd",
         content: (
           <StickyScroll
             isDesktop={isDesktop}

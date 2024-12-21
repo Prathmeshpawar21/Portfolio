@@ -105,7 +105,7 @@ export const PROJECTS = [
     name: "Car Price Prediction",
     image: "/projects/carprice2.png",
     blurImage: "/projects/blur/carpriceblur.png", 
-    description: "Car Price Prediction using Python/Flask + Machine Learning 🚕",
+    description: "Car Price Prediction using - Python/Flask + Machine Learning 🚕",
     gradient: ["#F14658", "#DC2537"],
     url: "https://carprice-w4i6.onrender.com/",
     tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
@@ -114,28 +114,46 @@ export const PROJECTS = [
     name: "RAG/Fine-tuning PDF Chat",
     image: "/projects/Ragpdf2.png",
     blurImage: "/projects/blur/ragblur.png",
-    description: "Mulit PDF Chat using Langchain + GenAI + OpenAI/Mistral/Ollama 🤖",
+    description: "Mulit PDF Chat using - Langchain + GenAI + OpenAI/Mistral/Ollama 🤖",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://super-chat-pdf.streamlit.app/",
     tech: ["openai-svgrepo-com","mistral-ai-icon", "tensorflow-svgrepo-com", "parrot-svgrepo-com","ollama"],
   },
   {
     name: "Medication Recommendation",
-    image: "/projects/medication1.png",
+    image: "/projects/medication3.png",
     blurImage: "/projects/blur/medicationblur.png",
-    description:"Medication recommendation using Python/Flask + ML/Scikit-Learn ⚕️",
+    description:"Medication recommendation using - Python/Flask + ML/Scikit-Learn ⚕️",
     gradient: ["#000066", "#6699FF"],
     url: "https://medication-recommendation.onrender.com/index.html",
     tech: ["vs-code-svgrepo-com", "python-svgrepo-com", "numpy-svgrepo-com","flask-svgrepo-com"],
   },
   {
+    name: "Blinkit Sales Analytics",
+    image: "/projects/blinkit.png",
+    blurImage: "/projects/blur/blinkitblur.png",
+    description: "Project using - PowerBI, Tableau, Python 📈",
+    gradient: ["#003300", "#66FF99"],
+    url: "https://blinkitanalytics.netlify.app/",
+    tech: ["tableau-software","power-bi-icon","excel-svgrepo-com","python-svgrepo-com"],
+  },
+  {
     name: "Face Emotion, Age, Gender Detection",
-    image: "/projects/face.png",
-    blurImage: "/projects/blur/faceA4.jpg",
-    description: "Project Using - OpenCV, Keras, Tensorflow,",
+    image: "/projects/face2.png",
+    blurImage: "/projects/blur/face2blur.png",
+    description: "Project using - OpenCV, Keras, Tensorflow, Python",
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/shubh73/tesla",
     tech: ["opencv-svgrepo-com","tensorflow-svgrepo-com","flask-svgrepo-com","pytorch-svgrepo-com"],
+  },
+  {
+    name: "HR Analytics Dashboard",
+    image: "/projects/hr2.png",
+    blurImage: "/projects/blur/hrblur.png",
+    description: "Project using - PowerBI, Tableau, Python 📊",
+    gradient: ["#330033", "#9966FF"],
+    url: "https://hrdashboardanalytics.netlify.app/",
+    tech: ["tableau-software","python-svgrepo-com","power-bi-icon","excel-svgrepo-com"],
   },
 ];
 
@@ -187,9 +205,10 @@ export const PROJECTS = [
 export const WORK_CONTENTS = {
   DUKAAN: [
     {
-      title: "Dukaan",
+      title: "Stylio Store",
+      role: "(Founder & Owner)",
       description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+        "An online platform offering a wide range of high-quality products, designed to provide customers with a seamless and convenient shopping experience",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Revolutionizing commerce, one click at a time
@@ -199,39 +218,43 @@ export const WORK_CONTENTS = {
     {
       title: "Transformation",
       description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
+        "In 2023, our dropshipping platform, based in India, faced challenges with product availability and customer experience. Leading a small team, we streamlined our product selection, improved order tracking, and optimized the website for faster checkouts. These updates enhanced customer satisfaction, reduced delays, and helped us grow by offering the latest trendy products more efficiently to Indian customers.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
+          Founder & Owner
         </div>
       ),
     },
     {
       title: "Evolution",
       description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
+        "Since launching in India, our dropshipping business has evolved by expanding product offerings, improving website functionality, and streamlining order fulfillment to deliver a better shopping experience.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
+          Founder & Owner
         </div>
       ),
     },
     {
       title: "Optimization",
       description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
+        "We continuously optimize our dropshipping platform by refining product selection, improving website speed, and enhancing order tracking to ensure a smooth and efficient shopping experience for customers.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
+          Founder & Owner
         </div>
       ),
     },
   ],
+
+
+
   AVIATE: [
     {
-      title: "Aviate",
+      title: "Zscaler",
+      role: "(Virtual Intern)",
       description:
-        "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
+        "Zero Trust Cloud Security Virtual Internship at Zscaler (AICTE Provider)",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Finding the right job isn&apos;t fate, it&apos;s navigation
@@ -239,31 +262,36 @@ export const WORK_CONTENTS = {
       ),
     },
     {
-      title: "Innovation",
+      title: "Skills Acquired",
       description:
-        "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
+        "During the Zero Trust Cloud Security Virtual Internship, I gained a strong understanding of cloud security principles, including Zero Trust architecture, access control, and network traffic monitoring. I developed skills in implementing security protocols, protecting data, and managing access within cloud environments, all while enhancing my knowledge of modern cybersecurity practices.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Developer Intern
+          Virtual Intern
         </div>
       ),
     },
   ],
+
+
+
   SPACENOS: [
     {
-      title: "Spacenos",
+      title: "Application Square Infotech Pvt Ltd",
+      role: "(Web Developer Intern)",
+
       description:
-        "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+        "Application Square Infotech is a web development startup specializing in scalable, user-friendly web solutions using React, Flask, and modern technologies.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          We build apps that solve problems for the next billion people
+          During my internship, I contributed to developing responsive web pages using HTML, CSS, and JavaScript, while also working with Bootstrap for UI design. I built interactive features and applications using React and Flask, optimizing the user experience and ensuring functionality across devices.
         </div>
       ),
     },
     {
-      title: "Trailblazing",
+      title: "Contribution",
       description:
-        "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
+        "I contributed to building responsive websites using HTML, CSS, JavaScript, and Bootstrap. I developed interactive features with React and Flask, optimizing performance and enhancing user experience through collaboration with the team.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Web Developer Intern
@@ -271,6 +299,10 @@ export const WORK_CONTENTS = {
       ),
     },
   ],
+
+
+
+
 };
 
 export const GTAG = "G-5HCTL2TJ5W";
