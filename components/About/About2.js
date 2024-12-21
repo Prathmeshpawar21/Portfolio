@@ -41,7 +41,7 @@ const About2 = ({ clientHeight }) => {
           ref={quoteRef}
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
-          I have a{" "}
+          I bring a proactive approach, constantly striving for {" "}
           <span
             className="about-3 font-bold"
             style={{
@@ -52,9 +52,9 @@ const About2 = ({ clientHeight }) => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            strong
+            excellence & innovative solutions
           </span>{" "}
-          obsession for attention to detail.
+          in every project I tackle.
         </h1>
       </div>
     </section>

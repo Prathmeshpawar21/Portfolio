@@ -1,0 +1,2 @@
+1) song volume low karne 
+2)Resume download link in Hero.js (line 101 button)

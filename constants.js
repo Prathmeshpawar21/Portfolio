@@ -1,21 +1,21 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "Prathamesh Pawar",
+  title: "Portfolio | Prathamesh Pawar",
   description:
-    "Shubh Porwal is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubhporwal24",
+    "Prathamesh pawar is a professional Data Scientist specializing in AI, machine learning, and advanced analytics, passionate about solving complex problems through data-driven innovation.",
+  siteUrl: "https://www.shubhporwal.me/", //baki 
+  twitterHandle: "@13Prathamesh",
   keywords: [
-    "Shubh Porwal",
-    "Frontend Engineer",
-    "React Native Developer",
-    "Software Engineer",
+    "Prathamesh Pawar",
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "AI Engineer",
     "Portfolio",
     "Devfolio",
     "Folio",
   ].join(", "),
   image:
-    "https://res.cloudinary.com/dywdhyojt/image/upload/v1721378510/social-preview.png",
+    "https://res.cloudinary.com/dywdhyojt/image/upload/v1721378510/social-preview.png", // baki
   language: "English",
   themeColor: "#000000",
 };
@@ -44,31 +44,31 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  "A professional Data Scientist",
+  "I derive insights from complex data",
+  "I innovate with AI and machine learning",
 ];
 
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: prathmeshpawar212002@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/prathameshpawar21/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/Prathmeshpawar21",
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
+    url: "https://www.instagram.com/prathmesh_pawar_21/",
   },
   {
     name: "twitter",
-    url: "https://x.com/shubhporwal24",
+    url: "https://x.com/13Prathamesh",
   },
 ];
 
@@ -99,43 +99,43 @@ export const SKILLS = {
   other: ["git", "sanity-io"],
 };
 
+//baki from here down
 export const PROJECTS = [
   {
-    name: "Airbnb",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
+    name: "Car Price Prediction",
+    image: "/projects/carprice2.png",
+    blurImage: "/projects/blur/carpriceblur.png", 
+    description: "Car Price Prediction using Python/Flask + Machine Learning 🚕",
     gradient: ["#F14658", "#DC2537"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
+    url: "https://carprice-w4i6.onrender.com/",
+    tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
   },
   {
-    name: "Medium",
-    image: "/projects/medium.webp",
-    blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
+    name: "RAG/Fine-tuning PDF Chat",
+    image: "/projects/Ragpdf2.png",
+    blurImage: "/projects/blur/ragblur.png",
+    description: "Mulit PDF Chat using Langchain + GenAI + OpenAI/Mistral/Ollama 🤖",
     gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
+    url: "https://super-chat-pdf.streamlit.app/",
+    tech: ["openai-svgrepo-com","mistral-ai-icon", "tensorflow-svgrepo-com", "parrot-svgrepo-com","ollama"],
   },
   {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
+    name: "Medication Recommendation",
+    image: "/projects/medication1.png",
+    blurImage: "/projects/blur/medicationblur.png",
+    description:"Medication recommendation using Python/Flask + ML/Scikit-Learn ⚕️",
     gradient: ["#000066", "#6699FF"],
-    url: "https://shubh73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
+    url: "https://medication-recommendation.onrender.com/index.html",
+    tech: ["vs-code-svgrepo-com", "python-svgrepo-com", "numpy-svgrepo-com","flask-svgrepo-com"],
   },
   {
-    name: "Tesla",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
+    name: "Face Emotion, Age, Gender Detection",
+    image: "/projects/face.png",
+    blurImage: "/projects/blur/faceA4.jpg",
+    description: "Project Using - OpenCV, Keras, Tensorflow,",
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/shubh73/tesla",
-    tech: ["react"],
+    tech: ["opencv-svgrepo-com","tensorflow-svgrepo-com","flask-svgrepo-com","pytorch-svgrepo-com"],
   },
 ];
 

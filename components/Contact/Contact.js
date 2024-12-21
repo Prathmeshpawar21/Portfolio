@@ -261,7 +261,7 @@ const Contact = () => {
         <div className="flex flex-col contact-wrapper">
           <div className="flex flex-col">
             <p className="uppercase tracking-widest text-gray-light-1 staggered-reveal">
-              CONTACT
+              REACH OUT
             </p>
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
               Contact

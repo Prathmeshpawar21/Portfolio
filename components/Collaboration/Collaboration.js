@@ -84,7 +84,7 @@ const Collaboration = ({ clientHeight }) => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Collaboration
+            Research
           </span>
           ?
         </h1>
