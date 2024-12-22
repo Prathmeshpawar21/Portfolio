@@ -46,7 +46,7 @@ export default function Home() {
     setClientHeight(innerHeight);
     setClientWidth(innerWidth);
   }, [isDesktop]);
-
+ 
   return (
     <>
       {isLoading ? (

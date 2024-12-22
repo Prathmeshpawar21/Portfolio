@@ -55,7 +55,7 @@ const Hero = () => {
         loop: true,
         autoplay: true,
         animationData: require("../../public/lottie/lottie.json"),
-      });
+      }); 
 
       return () => animation.destroy();
     }
@@ -97,7 +97,10 @@ const Hero = () => {
           <Profiles />
         </div>
         <div className="staggered-reveal pt-4">
-          <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
+          {/* <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary"> */}
+          <Button href={`https://drive.google.com/uc?export=download&id=18GRoAuXW9Wam5AVpPMMlTquRXQ6BM7FP`}
+ classes="link" type="primary" >
+
             Get Resume
           </Button>
         </div>

@@ -1,9 +1,9 @@
 export const METADATA = {
   author: "Prathamesh Pawar",
-  title: "Portfolio | Prathamesh Pawar",
+  title: "Prathamesh Pawar",
   description:
     "Prathamesh pawar is a professional Data Scientist specializing in AI, machine learning, and advanced analytics, passionate about solving complex problems through data-driven innovation.",
-  siteUrl: "https://www.shubhporwal.me/", //baki 
+  siteUrl: "https://prathameshpawar-mu.vercel.app/", //baki 
   twitterHandle: "@13Prathamesh",
   keywords: [
     "Prathamesh Pawar",
@@ -14,8 +14,8 @@ export const METADATA = {
     "Devfolio",
     "Folio",
   ].join(", "),
-  image:
-    "https://res.cloudinary.com/dywdhyojt/image/upload/v1721378510/social-preview.png", // baki
+  // image:
+  //   "https://res.cloudinary.com/dywdhyojt/image/upload/v1721378510/social-preview.png", // baki
   language: "English",
   themeColor: "#000000",
 };
@@ -29,7 +29,7 @@ export const MENULINKS = [
     name: "Skills",
     ref: "skills",
   },
-  {
+  {  
     name: "Projects",
     ref: "projects",
   },
@@ -211,7 +211,7 @@ export const PROJECTS = [
     blurImage: "/projects/blur/face2blur.png",
     description: "Project using - OpenCV, Keras, Tensorflow, Python",
     gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/shubh73/tesla",
+    url: "https://github.com/Prathmeshpawar21/DS-Image-Recognition",
     tech: ["opencv-svgrepo-com","tensorflow-svgrepo-com","flask-svgrepo-com","pytorch-svgrepo-com"],
   },
   {
