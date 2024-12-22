@@ -85,7 +85,7 @@ const Hero = () => {
           <span className={`relative ${styles.emphasize} staggered-reveal`}>
             Prathamesh
           </span>
-          <span className="staggered-reveal"> Pawar</span>
+          <span className="staggered-reveal"> J. Pawar</span>
         </h1>
         <p>
           <span

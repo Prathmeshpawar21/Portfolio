@@ -45,8 +45,8 @@ export const MENULINKS = [
 
 export const TYPED_STRINGS = [
   "A professional Data Scientist",
-  "I derive insights from complex data",
-  "I innovate with AI and machine learning",
+  "Expert in Machine Learning and Analytics.",
+  "Empowering Businesses with Insights.",
 ];
 
 export const SOCIAL_LINKS = [
@@ -74,29 +74,97 @@ export const SOCIAL_LINKS = [
 
 export const SKILLS = {
   languagesAndTools: [
-    "html",
-    "css",
-    "javascript",
-    "typescript",
-    "sass",
-    "nodejs",
-    "webpack",
-    "vite",
-    "firebase",
-    "figma",
-    "tanstack-query",
+    "python-svgrepo-com",
+    "r-programming-language-icon",
+    "file-sql-color-green-icon",
   ],
   librariesAndFrameworks: [
-    "react",
-    "redux",
-    "nextjs",
-    "tailwindcss",
-    "styledcomponents",
-    "antdesign",
-    "chakra-ui",
+    "TensorFlow",
+    "pytorch-svgrepo-com",
+    "OpenCV",
+    "Keras",
+    "scikit-learn",
+    "seaborn-1",
+    "icons8-flask",
+    "matplotlib-seeklogo",
+    "hadoop-svgrepo-com",
+    "Apache-Spark--Streamline-Svg-Logos",
+    "parrot-svgrepo-com",
   ],
-  databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
+
+
+  tools: [
+    "power-bi-icon",
+    "tableau-software",
+    "Jupyter",
+    "microsoft-excel-2013",
+    "huggingface-2",
+  ],
+
+
+  databases: ["mysql-logo-svgrepo-com", "mongodb","Azure"],
+  other: [
+    "vs-code-svgrepo-com",
+    "git",
+    "github-white-icon",
+    "Anaconda",
+    "docker-icon"
+  ],
+  osData: [
+    "Windows 8",
+    "Linux",
+    "icons8-apple",
+  ],
+
+
+
+// Web
+languagesAndToolsWeb: [
+  "html",
+  "css",
+  "javascript-svgrepo-com",
+  "PHP",
+],
+librariesAndFrameworksWeb: [
+  "react",
+  "Bootstrap",
+  "nodejs",
+  "NPM",
+],
+
+toolsWeb: [
+  "xampp",
+  "Postman",
+],
+
+databasesWeb: [],
+
+
+cloudWeb: ["Heroku","netlify-svgrepo-com"],
+
+otherWeb: ["vs-code-svgrepo-com",
+    "github-white-icon",],
+
+// Game Dev
+languagesAndToolsGame: [
+  "c-sharp-programming-language-icon",
+  "C++ (CPlusPlus)",
+],
+
+librariesAndFrameworksGame: [],
+
+toolsGame: [
+  "icons8-unreal-engine",
+"icons8-unity"  ,
+"Blender",
+],
+
+databasesGame: [],
+
+otherGame: [],
+
+
+
 };
 
 //baki from here down
@@ -306,3 +374,19 @@ export const WORK_CONTENTS = {
 };
 
 export const GTAG = "G-5HCTL2TJ5W";
+
+
+
+
+// Extra modification
+export const ColoredLine = ({ color }) => (
+  <hr
+      style={{
+          color: color,
+          backgroundColor: color,
+          height: 1,
+          width:900,
+          marginTop: 10,
+      }}
+  />
+);

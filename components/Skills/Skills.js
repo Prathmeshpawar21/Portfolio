@@ -3,7 +3,7 @@ import { useLayoutEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import { MENULINKS, SKILLS } from "../../constants";
+import { MENULINKS, SKILLS, ColoredLine } from "../../constants";
 
 const Skills = () => {
   const sectionRef = useRef(null);
@@ -53,14 +53,20 @@ const Skills = () => {
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
               My Skills
             </h1>
-            <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              I like to take responsibility to craft aesthetic user experience
-              using modern frontend architecture.{" "}
+            <h2 className="text-[1.4rem] font-light md:max-w-lg w-full mt-2 staggered-reveal">
+            Building Solutions with Data Science Expertise.{" "}
             </h2>
           </div>
+
+
           <div className="mt-10">
+          <h2 className="text-[2.2rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
+            Data Scientist{" "}
+            </h2>
+            <p className="text-[0.9rem] forn-light"></p>
+
             <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
-              LANGUAGES AND TOOLS
+              LANGUAGES
             </h3>
             <div className="flex items-center flex-wrap gap-6 staggered-reveal">
               {SKILLS.languagesAndTools.map((skill) => (
@@ -76,7 +82,7 @@ const Skills = () => {
           </div>
           <div className="mt-10">
             <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
-              LIBRARIES AND FRAMEWORKS
+            FRAMEWORKS AND LIBRARIES  
             </h3>
             <div className="flex flex-wrap gap-6 transform-gpu staggered-reveal">
               {SKILLS.librariesAndFrameworks.map((skill) => (
@@ -90,26 +96,42 @@ const Skills = () => {
               ))}
             </div>
           </div>
+          <div className="mt-10">
+            <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
+              TOOLS
+            </h3>
+            <div className="flex flex-wrap gap-6 transform-gpu staggered-reveal">
+              {SKILLS.tools.map((skill) => (
+                <Image
+                  key={skill}
+                  src={`/skills/${skill}.svg`}
+                  alt={skill}
+                  width={50}
+                  height={50}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="mt-10">
+            <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
+            DATABASES
+            </h3>
+            <div className="flex flex-wrap gap-6 transform-gpu staggered-reveal">
+              {SKILLS.databases.map((skill) => (
+                <Image
+                  key={skill}
+                  src={`/skills/${skill}.svg`}
+                  alt={skill}
+                  width={50}
+                  height={50}
+                />
+              ))}
+            </div>
+          </div>
           <div className="flex flex-wrap mt-10">
             <div className="mr-16 xs:mr-20 mb-6 staggered-reveal">
               <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">
-                DATABASES
-              </h3>
-              <div className="flex flex-wrap gap-6 transform-gpu">
-                {SKILLS.databases.map((skill) => (
-                  <Image
-                    key={skill}
-                    src={`/skills/${skill}.svg`}
-                    alt={skill}
-                    width={50}
-                    height={50}
-                  />
-                ))}
-              </div>
-            </div>
-            <div className="staggered-reveal">
-              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">
-                Other
+                OTHERS
               </h3>
               <div className="flex flex-wrap gap-6 transform-gpu">
                 {SKILLS.other.map((skill) => (
@@ -123,7 +145,158 @@ const Skills = () => {
                 ))}
               </div>
             </div>
+            <div className="staggered-reveal">
+              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">
+                OS
+              </h3>
+              <div className="flex flex-wrap gap-6 transform-gpu">
+                {SKILLS.osData.map((skill) => (
+                  <Image
+                    key={skill}
+                    src={`/skills/${skill}.svg`}
+                    alt={skill}
+                    width={50}
+                    height={50}
+                  />
+                ))}
+              </div>
+            </div>
           </div>
+          <ColoredLine color="gray" />
+
+
+          
+{/* Web Dev */}
+
+          <div className="mt-10">
+          <h2 className="text-[1.7rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
+            Frontend Dev{" "}
+            </h2>
+            <p className="text-[0.9rem] forn-light">2022</p>
+            <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
+              LANGUAGES
+            </h3>
+            <div className="flex items-center flex-wrap gap-6 staggered-reveal">
+              {SKILLS.languagesAndToolsWeb.map((skill) => (
+                <Image
+                  key={skill}
+                  src={`/skills/${skill}.svg`}
+                  alt={skill}
+                  width={35}
+                  height={35}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="mt-10">
+            <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
+            FRAMEWORKS AND LIBRARIES  
+            </h3>
+            <div className="flex flex-wrap gap-6 transform-gpu staggered-reveal">
+              {SKILLS.librariesAndFrameworksWeb.map((skill) => (
+                <Image
+                  key={skill}
+                  src={`/skills/${skill}.svg`}
+                  alt={skill}
+                  width={35}
+                  height={35}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="mt-10">
+            <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
+              TOOLS
+            </h3>
+            <div className="flex flex-wrap gap-6 transform-gpu staggered-reveal">
+              {SKILLS.toolsWeb.map((skill) => (
+                <Image
+                  key={skill}
+                  src={`/skills/${skill}.svg`}
+                  alt={skill}
+                  width={35}
+                  height={35}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-wrap mt-10">
+            <div className="mr-16 xs:mr-20 mb-6 staggered-reveal">
+              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">
+              CLOUD/HOSTING
+              </h3>
+              <div className="flex flex-wrap gap-6 transform-gpu">
+                {SKILLS.cloudWeb.map((skill) => (
+                  <Image
+                    key={skill}
+                    src={`/skills/${skill}.svg`}
+                    alt={skill}
+                    width={35}
+                    height={35}
+                  />
+                ))}
+              </div>
+            </div>
+            <div className="staggered-reveal">
+              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">
+                Other
+              </h3>
+              <div className="flex flex-wrap gap-6 transform-gpu">
+                {SKILLS.otherWeb.map((skill) => (
+                  <Image
+                    key={skill}
+                    src={`/skills/${skill}.svg`}
+                    alt={skill}
+                    width={35}
+                    height={35}
+                  />
+                ))}
+              </div>
+            </div>
+
+          </div>        
+          <ColoredLine color="gray" />
+
+
+{/* Game Dev */}
+          <div className="mt-10">
+          <h2 className="text-[1.7rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
+            Game Developer{" "}
+            </h2>
+            <p className="text-[0.9rem] forn-light">2020</p>
+            <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
+              LANGUAGES
+            </h3>
+            <div className="flex items-center flex-wrap gap-6 staggered-reveal">
+              {SKILLS.languagesAndToolsGame.map((skill) => (
+                <Image
+                  key={skill}
+                  src={`/skills/${skill}.svg`}
+                  alt={skill}
+                  width={35}
+                  height={35}
+                />
+              ))}
+            </div>
+          </div>
+          <div className="mt-10">
+            <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
+              TOOLS
+            </h3>
+            <div className="flex flex-wrap gap-6 transform-gpu staggered-reveal">
+              {SKILLS.toolsGame.map((skill) => (
+                <Image
+                  key={skill}
+                  src={`/skills/${skill}.svg`}
+                  alt={skill}
+                  width={35}
+                  height={35}
+                />
+              ))}
+            </div>
+          </div>
+          {/* <ColoredLine color="gray" /> */}
+
         </div>
       </div>
     </section>

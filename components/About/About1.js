@@ -56,10 +56,10 @@ const About1 = ({ clientHeight }) => {
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
           <span className="about-1 leading-tight">
-            I&apos;am a Confident Data Scientist with expertise in AI, machine learning, and data science. {" "}
+            I&apos;am a Confident Data Scientist with expertise in AI, ML and Gen-AI. {" "}
           </span>
           <span className="about-2 leading-tight">
-          I transform complex data into actionable insights to solve problems and drive innovation.{" "}
+          Transform complex data into actionable insights to solve problems.{" "}
           </span>
         </h1>
       </div>
