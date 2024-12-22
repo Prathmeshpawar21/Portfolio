@@ -274,6 +274,7 @@ export const WORK_CONTENTS = {
   DUKAAN: [
     {
       title: "Stylio Store",
+      exp: "- 2 years",
       role: "(Founder & Owner)",
       description:
         "An online platform offering a wide range of high-quality products, designed to provide customers with a seamless and convenient shopping experience",
@@ -320,6 +321,7 @@ export const WORK_CONTENTS = {
   AVIATE: [
     {
       title: "Zscaler",
+      exp: "- 3 months",
       role: "(Virtual Intern)",
       description:
         "Zero Trust Cloud Security Virtual Internship at Zscaler (AICTE Provider)",
@@ -346,20 +348,22 @@ export const WORK_CONTENTS = {
   SPACENOS: [
     {
       title: "Application Square Infotech Pvt Ltd",
+      exp: "- 2 months",
+
       role: "(Web Developer Intern)",
 
       description:
         "Application Square Infotech is a web development startup specializing in scalable, user-friendly web solutions using React, Flask, and modern technologies.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          During my internship, I contributed to developing responsive web pages using HTML, CSS, and JavaScript, while also working with Bootstrap for UI design. I built interactive features and applications using React and Flask, optimizing the user experience and ensuring functionality across devices.
+          During my internship, I contributed to developing responsive web pages using HTML, CSS, and JavaScript while also working with Bootstrap for UI design. I built interactive features and applications using React and Flask, optimizing the user experience and ensuring functionality across devices.
         </div>
       ),
     },
     {
       title: "Contribution",
       description:
-        "I contributed to building responsive websites using HTML, CSS, JavaScript, and Bootstrap. I developed interactive features with React and Flask, optimizing performance and enhancing user experience through collaboration with the team.",
+        "I contributed to building responsive websites using HTML, CSS, JavaScript, PHP and Bootstrap. I developed interactive features with React and Flask, optimizing performance and enhancing user experience through collaboration with the team.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Web Developer Intern

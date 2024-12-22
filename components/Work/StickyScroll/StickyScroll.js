@@ -77,8 +77,9 @@ const StickyScroll = ({ contentItems }) => {
                   className="text-2xl font-bold text-slate-100"
                 >
                   {item.title}
-
                 </motion.h2>
+
+
 
                 <motion.h5
                   initial={{
@@ -92,6 +93,19 @@ const StickyScroll = ({ contentItems }) => {
                   {item.role}
 
                 </motion.h5>
+                <motion.p
+                  initial={{
+                    opacity: 0,
+                  }}
+                  animate={{
+                    opacity: activeCard === index ? 1 : 0.3,
+                  }}
+                  className="text-1xl text-slate-50"
+                >
+                  {item.exp}
+                </motion.p>
+                
+
 
 
 
