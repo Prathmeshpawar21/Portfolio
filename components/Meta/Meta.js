@@ -36,7 +36,7 @@ const Meta = () => (
       sizes="180x180"
       href="/favicons/p.png"
     />
-    <link
+    <link    
       rel="icon"
       type="image/png"
       sizes="32x32"
