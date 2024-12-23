@@ -9,7 +9,7 @@ https://prathameshpawar-mu.vercel.app/
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prathameshpawar21/)
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/Prathmeshpawar21/Portfolio/refs/heads/main/public/pagepic.png)
+![App Screenshot](https://raw.githubusercontent.com/Prathmeshpawar21/Resources/refs/heads/main/SS/pagepic-modified.png)
 
 
 ## 🚀 About Me
