@@ -3,6 +3,7 @@ import { MENULINKS, PROJECTS } from "../../constants";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import ProjectTile from "./ProjectTile/ProjectTile";
+import Button from "../Button/Button";
 
 const Projects = ({ isDesktop, clientHeight }) => {
   const sectionRef = useRef(null);
@@ -102,6 +103,7 @@ const Projects = ({ isDesktop, clientHeight }) => {
           Innovative projects that highlight my expertise{" "}
           </h2>
         </div>
+
         <div
           className={`${
             clientHeight > 650 ? "mt-12" : "mt-8"
@@ -118,6 +120,16 @@ const Projects = ({ isDesktop, clientHeight }) => {
           ))}
         </div>
       </div>
+
+      {/* <div
+          className="flex flex-row inner-container transform-gpu"
+          ref={sectionTitleRef}
+        >
+           <Button href={`https://drive.google.com/uc?export=download&id=1rCrwGWNvSg0I43dRS6TkFXlqtYvGcHZi`}
+                  classes="link" type="primary" >Past Projects
+                  </Button>
+      </div> */}
+
     </section>
   );
 };

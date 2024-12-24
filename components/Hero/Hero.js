@@ -97,14 +97,14 @@ const Hero = () => {
           <Profiles />
         </div>
         <div className="staggered-reveal pt-4">
-          {/* <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary"> */}
-          {/* <Button href={`https://drive.google.com/uc?export=download&id=1rCrwGWNvSg0I43dRS6TkFXlqtYvGcHZi`}
- classes="link" type="primary" > */}
- <Button href={`https://drive.google.com/uc?export=download&id=1rCrwGWNvSg0I43dRS6TkFXlqtYvGcHZi`}
- classes="link" type="primary" >
+              {/* <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary"> */}
+              {/* <Button href={`https://drive.google.com/uc?export=download&id=1rCrwGWNvSg0I43dRS6TkFXlqtYvGcHZi`}
+                  classes="link" type="primary" > */}
 
-            Get Resume
-          </Button>
+                  <Button href={`https://drive.google.com/uc?export=download&id=1rCrwGWNvSg0I43dRS6TkFXlqtYvGcHZi`}
+                  classes="link" type="primary" >Get Resume
+                  </Button>
+                  
         </div>
       </div>
       <div

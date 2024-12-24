@@ -16,6 +16,16 @@ import Collaboration from "@/components/Collaboration/Collaboration";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import { displayFancyLogs } from "utils/log";
+import Link from 'next/link';
+
+import PastProjects from "@/components/Pastproject/Pastproject";
+
+
+
+// import clgProject from "@/components/_Past_project/Clg_project/clgProject";
+// import gameDev from "@/components/_Past_project/GameDev/gameDev";
+// import webDev from "@/components/_Past_project/Web_dev/webDev";
+
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
@@ -66,14 +76,19 @@ export default function Home() {
               DATA
             </div>
             <div className="fixed top-0 left-0 h-screen w-screen -z-1" />
+
+
             <Hero />
             <About1 clientHeight={clientHeight} />
+
+            <PastProjects />
+
             <Skills />
             <About2 clientHeight={clientHeight} />
             <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
             <Work isDesktop={isDesktop} />
             <Collaboration clientHeight={clientHeight} />
-            <Contact />
+            <Contact isDesktop={isDesktop} clientHeight={clientHeight}/>
           </main>
           <Footer />
         </>
