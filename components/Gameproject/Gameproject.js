@@ -1,11 +1,11 @@
 import { useEffect, useRef } from "react";
-import { MENULINKS, CLGPROJECT } from "../../constants";
+import { MENULINKS,  GAMEPROJECT} from "../../constants";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import ProjectTile from "./ProjectTile/ProjectTile";
 import Button from "../Button/Button";
 
-const Clgproject = ({ isDesktop, clientHeight }) => {
+const Gameproject = ({ isDesktop, clientHeight }) => {
   const sectionRef = useRef(null);
   const sectionTitleRef = useRef(null);
 
@@ -97,10 +97,10 @@ const Clgproject = ({ isDesktop, clientHeight }) => {
             PROJECTS
           </p>
           <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
-            College Project 
+            Game Devlopment 
           </h1>
           <h2 className="text-[1.65rem] font-medium md:max-w-lg max-w-sm mt-2 staggered-reveal">
-          BE Engineering Project{" "}
+          Past Gaming Projects{" "}
           </h2>
         </div>
 
@@ -109,10 +109,10 @@ const Clgproject = ({ isDesktop, clientHeight }) => {
             clientHeight > 650 ? "mt-12" : "mt-8"
           } flex project-wrapper no-scrollbar w-fit staggered-reveal`}
         >
-          {CLGPROJECT.map((project, index) => (
+          {GAMEPROJECT.map((project, index) => (
             <ProjectTile
               classes={
-                index === CLGPROJECT.length - 1 ? "" : "mr-10 xs:mr-12 sm:mr-16"
+                index === GAMEPROJECT.length - 1 ? "" : "mr-10 xs:mr-12 sm:mr-16"
               }
               project={project}
               key={project.name}
@@ -125,4 +125,4 @@ const Clgproject = ({ isDesktop, clientHeight }) => {
   );
 };
 
-export default Clgproject;
+export default Gameproject;

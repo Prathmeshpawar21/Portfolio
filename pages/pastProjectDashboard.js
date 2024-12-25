@@ -6,19 +6,14 @@ import Header from "@/components/Header/Header";
 import Menu from "@/components/Header/Menu/Menu";
 import ProgressIndicator from "@/components/ProgressIndicator/ProgressIndicator";
 import Cursor from "@/components/Cursor/Cursor";
-import Hero from "@/components/Hero/Hero";
 import About1 from "@/components/About/About1";
-import Skills from "@/components/Skills/Skills";
-import About2 from "@/components/About/About2";
-import Projects from "@/components/Projects/Projects";
-import Work from "@/components/Work/Work";
-import Collaboration from "@/components/Collaboration/Collaboration";
-import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 import { displayFancyLogs } from "utils/log";
-import Link from 'next/link';
 
-import clgProject from "@/components/clgProject/clgProject";
+import Aboutforproject from "@/components/About/Aboutforproject";
+import Webproject from "@/components/Webproject/Webproject";
+import Gameproject from "@/components/Gameproject/Gameproject";
+import Clgproject from "@/components/Clgproject/Clgproject";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -62,25 +57,23 @@ export default function Home() {
           </Header>
           <ProgressIndicator />
           <Cursor isDesktop={isDesktop} />
+          <main className="flex flex-col">
+            <div
+              role="img"
+              className="text-gray-light-1 opacity-10 sm:text-9xl xs:text-8xl inline-block -z-10 absolute rotate-90 right-0 md:top-52 xs:top-96"
+            >
+              Activity
+            </div>
+            <div className="fixed top-0 left-0 h-screen w-screen -z-1" />
 
-            <main className="flex flex-col">
-          
-                <div
-                role="img"
-                className="text-gray-light-1 opacity-10 sm:text-8.5xl xs:text-8xl inline-block -z-10 absolute rotate-90 right-0 md:top-52 xs:top-96"
-                >
-                Activities
-                </div>
-                <div className="fixed top-0 left-0 h-screen w-screen -z-1" />
-                <clgProject isDesktop={isDesktop} clientHeight={clientHeight} />
-                <About1 clientHeight={clientHeight} />
+            <Aboutforproject clientHeight={clientHeight} />
+            
+            <Webproject isDesktop={isDesktop} clientHeight={clientHeight}/>
+            <Gameproject isDesktop={isDesktop} clientHeight={clientHeight}/>
+            <Clgproject isDesktop={isDesktop} clientHeight={clientHeight}/>
 
-                <h1>MyPastProject</h1>
 
-                {/* <Projects isDesktop={isDesktop} clientHeight={clientHeight} /> */}
-
-            </main>
-
+          </main>
           <Footer />
         </>
       )}

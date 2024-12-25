@@ -20,8 +20,6 @@ import Link from 'next/link';
 
 import PastProjects from "@/components/Pastproject/Pastproject";
 
-
-
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
 
@@ -74,6 +72,7 @@ export default function Home() {
 
 
             <Hero />
+            {/* <Clgproject/> */}
             <About1 clientHeight={clientHeight} />
 
             <PastProjects />
