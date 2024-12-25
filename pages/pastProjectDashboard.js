@@ -18,13 +18,7 @@ import Footer from "@/components/Footer/Footer";
 import { displayFancyLogs } from "utils/log";
 import Link from 'next/link';
 
-import PastProjects from "@/components/Pastproject/Pastproject";
-
-
-
-// import clgProject from "@/components/_Past_project/Clg_project/clgProject";
-// import gameDev from "@/components/_Past_project/GameDev/gameDev";
-// import webDev from "@/components/_Past_project/Web_dev/webDev";
+import clgProject from "@/components/clgProject/clgProject";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -70,6 +64,7 @@ export default function Home() {
           <Cursor isDesktop={isDesktop} />
 
             <main className="flex flex-col">
+          
                 <div
                 role="img"
                 className="text-gray-light-1 opacity-10 sm:text-8.5xl xs:text-8xl inline-block -z-10 absolute rotate-90 right-0 md:top-52 xs:top-96"
@@ -77,9 +72,12 @@ export default function Home() {
                 Activities
                 </div>
                 <div className="fixed top-0 left-0 h-screen w-screen -z-1" />
+                <clgProject isDesktop={isDesktop} clientHeight={clientHeight} />
+                <About1 clientHeight={clientHeight} />
 
-                <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
-                <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
+                <h1>MyPastProject</h1>
+
+                {/* <Projects isDesktop={isDesktop} clientHeight={clientHeight} /> */}
 
             </main>
 

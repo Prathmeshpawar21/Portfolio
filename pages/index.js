@@ -22,11 +22,6 @@ import PastProjects from "@/components/Pastproject/Pastproject";
 
 
 
-// import clgProject from "@/components/_Past_project/Clg_project/clgProject";
-// import gameDev from "@/components/_Past_project/GameDev/gameDev";
-// import webDev from "@/components/_Past_project/Web_dev/webDev";
-
-
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
 

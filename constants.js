@@ -167,7 +167,6 @@ otherGame: [],
 
 };
 
-//baki from here down
 export const PROJECTS = [
   {
     name: "Car Price Prediction",
@@ -224,6 +223,65 @@ export const PROJECTS = [
     tech: ["tableau-software","python-svgrepo-com","power-bi-icon","excel-svgrepo-com"],
   },
 ];
+
+
+export const CLGPROJECT = [
+  {
+    name: "Car Price Prediction",
+    image: "/projects/carprice2.png",
+    blurImage: "/projects/blur/carpriceblur.png", 
+    description: "Car Price Prediction using - Python/Flask + Machine Learning 🚕",
+    gradient: ["#F14658", "#DC2537"],
+    url: "https://carprice-w4i6.onrender.com/",
+    tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
+  },
+  {
+    name: "RAG/Fine-tuning PDF Chat",
+    image: "/projects/Ragpdf2.png",
+    blurImage: "/projects/blur/ragblur.png",
+    description: "Mulit PDF Chat using - Langchain + GenAI + OpenAI/Mistral/Ollama 🤖",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "https://super-chat-pdf.streamlit.app/",
+    tech: ["openai-svgrepo-com","mistral-ai-icon", "tensorflow-svgrepo-com", "parrot-svgrepo-com","ollama"],
+  },
+  {
+    name: "Medication Recommendation",
+    image: "/projects/medication3.png",
+    blurImage: "/projects/blur/medicationblur.png",
+    description:"Medication recommendation using - Python/Flask + ML/Scikit-Learn ⚕️",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://medication-recommendation.onrender.com/index.html",
+    tech: ["vs-code-svgrepo-com", "python-svgrepo-com", "numpy-svgrepo-com","flask-svgrepo-com"],
+  },
+  {
+    name: "Blinkit Sales Analytics",
+    image: "/projects/blinkit.png",
+    blurImage: "/projects/blur/blinkitblur.png",
+    description: "Project using - PowerBI, Tableau, Python 📈",
+    gradient: ["#003300", "#66FF99"],
+    url: "https://blinkitanalytics.netlify.app/",
+    tech: ["tableau-software","power-bi-icon","excel-svgrepo-com","python-svgrepo-com"],
+  },
+  {
+    name: "Face Emotion, Age, Gender Detection",
+    image: "/projects/face2.png",
+    blurImage: "/projects/blur/face2blur.png",
+    description: "Project using - OpenCV, Keras, Tensorflow, Python",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://github.com/Prathmeshpawar21/DS-Image-Recognition",
+    tech: ["opencv-svgrepo-com","tensorflow-svgrepo-com","flask-svgrepo-com","pytorch-svgrepo-com"],
+  },
+  {
+    name: "HR Analytics Dashboard",
+    image: "/projects/hr2.png",
+    blurImage: "/projects/blur/hrblur.png",
+    description: "Project using - PowerBI, Tableau, Python 📊",
+    gradient: ["#330033", "#9966FF"],
+    url: "https://hrdashboardanalytics.netlify.app/",
+    tech: ["tableau-software","python-svgrepo-com","power-bi-icon","excel-svgrepo-com"],
+  },
+];
+
 
 // export const WORK = [
 //   {
