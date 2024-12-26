@@ -146,9 +146,10 @@ otherWeb: ["vs-code-svgrepo-com",
     "github-white-icon",],
 
 // Game Dev
+
 languagesAndToolsGame: [
   "c-sharp-programming-language-icon",
-  "C++ (CPlusPlus)",
+  "cpp",
 ],
 
 librariesAndFrameworksGame: [],
