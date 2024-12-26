@@ -67,9 +67,9 @@ const PastProjects = () => {
       <div className="flex flex-col pt-20 md:pt-0 select-none">
         
           <div className="staggered-reveal pt-2">
-              <h2 className="text-4xl md:text-6xl font-light text-gray-400"> Past Projects</h2>
+              <h2 className="text-4xl md:text-6xl font-light text-gray-400"> All Projects</h2>
               <h2 className="text-[1.65rem] font-light md:max-w-lg max-w-sm mt-2 staggered-reveal">
-              See All Past Projects{" "}
+              See My All Projects Work {" "}
               </h2>
               <div className="staggered-reveal pt-2">
                 

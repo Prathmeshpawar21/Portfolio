@@ -41,7 +41,7 @@ const Aboutforproject = ({ clientHeight }) => {
           ref={quoteRef}
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
-          My Past Project Work {" "}
+          My All Project Work {" "}
 
         </h1>
       </div>

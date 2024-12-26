@@ -7,6 +7,9 @@ import Menu from "@/components/Header/Menu/Menu";
 import ProgressIndicator from "@/components/ProgressIndicator/ProgressIndicator";
 import Cursor from "@/components/Cursor/Cursor";
 import About1 from "@/components/About/About1";
+
+import DsProjects from "@/components/DsProjects/DsProjects";
+
 import Footer from "@/components/Footer/Footer";
 import { displayFancyLogs } from "utils/log";
 
@@ -68,6 +71,7 @@ export default function Home() {
 
             <Aboutforproject clientHeight={clientHeight} />
             
+            <DsProjects isDesktop={isDesktop} clientHeight={clientHeight} />
             <Webproject isDesktop={isDesktop} clientHeight={clientHeight}/>
             <Gameproject isDesktop={isDesktop} clientHeight={clientHeight}/>
             <Clgproject isDesktop={isDesktop} clientHeight={clientHeight}/>
