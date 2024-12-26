@@ -16,7 +16,8 @@ import { displayFancyLogs } from "utils/log";
 import Aboutforproject from "@/components/About/Aboutforproject";
 import Webproject from "@/components/Webproject/Webproject";
 import Gameproject from "@/components/Gameproject/Gameproject";
-import Clgproject from "@/components/Clgproject/Clgproject";
+
+import Engproject from "@/components/Engproject/Engproject"
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -74,7 +75,8 @@ export default function Home() {
             <DsProjects isDesktop={isDesktop} clientHeight={clientHeight} />
             <Webproject isDesktop={isDesktop} clientHeight={clientHeight}/>
             <Gameproject isDesktop={isDesktop} clientHeight={clientHeight}/>
-            <Clgproject isDesktop={isDesktop} clientHeight={clientHeight}/>
+            <Engproject isDesktop={isDesktop} clientHeight={clientHeight}/>
+
 
 
           </main>
