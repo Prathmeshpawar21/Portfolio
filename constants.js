@@ -225,93 +225,132 @@ export const PROJECTS = [
 ];
 
 
-
-
-
-
-
-
-
+// WEBPROJECT
 
 export const WEBPROJECT = [
   {
-    name: "Blinkit Sales Analytics",
-    image: "/projects/blinkit.png",
-    blurImage: "/projects/blur/blinkitblur.png",
-    description: "Project using - PowerBI, Tableau, Python 📈",
+    name: "Finance Analytics-DashBoard",
+    image: "/projects/webAnalytics.png",
+    blurImage: "/projects/webAnalytics.png",
+    description: "Project using - react, next.js",
     gradient: ["#003300", "#66FF99"],
-    url: "https://blinkitanalytics.netlify.app/",
-    tech: ["tableau-software","power-bi-icon","excel-svgrepo-com","python-svgrepo-com"],
+    url: "https://analytics-ten-sigma.vercel.app/",
+    tech: ["vite-svgrepo-com","react-svgrepo-com","npm-svgrepo-com","vs-code-svgrepo-com","node-js-svgrepo-com"],
   },
   {
-    name: "Face Emotion, Age, Gender Detection",
-    image: "/projects/face2.png",
-    blurImage: "/projects/blur/face2blur.png",
-    description: "Project using - OpenCV, Keras, Tensorflow, Python",
+    name: "Real Estate",
+    image: "/projects/realestate.png",
+    blurImage:  "/projects/realestate.png",
+    description: "Project using - Html, Css, Js, Bootstrap-5",
     gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/Prathmeshpawar21/DS-Image-Recognition",
-    tech: ["opencv-svgrepo-com","tensorflow-svgrepo-com","flask-svgrepo-com","pytorch-svgrepo-com"],
+    url: "https://real-estate-pawar.netlify.app/",
+    tech: ["css-3-svgrepo-com","html-5-svgrepo-com","javascript-svgrepo-com","bootstrap-4-logo-svgrepo-com"],
   },
   {
-    name: "HR Analytics Dashboard",
-    image: "/projects/hr2.png",
-    blurImage: "/projects/blur/hrblur.png",
-    description: "Project using - PowerBI, Tableau, Python 📊",
+    name: "Finance Analysis",
+    image: "/projects/finance.png",
+    blurImage:  "/projects/finance.png",
+    description: "Project using - Html, Css, Js, Bootstrap-5",
     gradient: ["#330033", "#9966FF"],
-    url: "https://hrdashboardanalytics.netlify.app/",
-    tech: ["tableau-software","python-svgrepo-com","power-bi-icon","excel-svgrepo-com"],
+    url: "https://mini-analytics-dashboard.netlify.app/",
+    tech: ["css-3-svgrepo-com","html-5-svgrepo-com","javascript-svgrepo-com","bootstrap-4-logo-svgrepo-com"],
+
   },
-  // {
-  //   name: "Blinkit Sales Analytics",
-  //   image: "/projects/blinkit.png",
-  //   blurImage: "/projects/blur/blinkitblur.png",
-  //   description: "Project using - PowerBI, Tableau, Python 📈",
-  //   gradient: ["#003300", "#66FF99"],
-  //   url: "https://blinkitanalytics.netlify.app/",
-  //   tech: ["tableau-software","power-bi-icon","excel-svgrepo-com","python-svgrepo-com"],
-  // },
-  // {
-  //   name: "Face Emotion, Age, Gender Detection",
-  //   image: "/projects/face2.png",
-  //   blurImage: "/projects/blur/face2blur.png",
-  //   description: "Project using - OpenCV, Keras, Tensorflow, Python",
-  //   gradient: ["#142D46", "#2E4964"],
-  //   url: "https://github.com/Prathmeshpawar21/DS-Image-Recognition",
-  //   tech: ["opencv-svgrepo-com","tensorflow-svgrepo-com","flask-svgrepo-com","pytorch-svgrepo-com"],
-  // },
-  // {
-  //   name: "HR Analytics Dashboard",
-  //   image: "/projects/hr2.png",
-  //   blurImage: "/projects/blur/hrblur.png",
-  //   description: "Project using - PowerBI, Tableau, Python 📊",
-  //   gradient: ["#330033", "#9966FF"],
-  //   url: "https://hrdashboardanalytics.netlify.app/",
-  //   tech: ["tableau-software","python-svgrepo-com","power-bi-icon","excel-svgrepo-com"],
-  // },
+  {
+    name: "CryptocCurrency",
+    image: "/projects/crypto.png",
+    blurImage:  "/projects/crypto.png",
+    description: "Project using - Html, Css, Js, Bootstrap-5",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://crypto-buy.netlify.app/",
+    tech: ["css-3-svgrepo-com","html-5-svgrepo-com","vs-code-svgrepo-com","javascript-svgrepo-com","bootstrap-4-logo-svgrepo-com"],
+
+  },
+  {
+    name: "Rent Car",
+    image: "/projects/carweb.png",
+    blurImage:  "/projects/carweb.png",
+    description: "Project using - Html, Css, Js, Bootstrap-5",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://car-renting-service.netlify.app//",
+    tech: ["css-3-svgrepo-com","html-5-svgrepo-com","javascript-svgrepo-com","bootstrap-4-logo-svgrepo-com"],
+
+  },
+  {
+    name: "Art-Exhibition",
+    image: "/projects/exhibithion.png",
+    blurImage:  "/projects/exhibithion.png",
+    description: "Project using - Html, Css, Js, Bootstrap-5",
+    gradient: ["#330033", "#9966FF"],
+    url: "https://exhibition-art.netlify.app/",
+    tech: ["css-3-svgrepo-com","html-5-svgrepo-com","javascript-svgrepo-com","bootstrap-4-logo-svgrepo-com"],
+
+  },
+  {
+    name: "Landing Page",
+    image: "/projects/monitorthemepage.png",
+    blurImage: "/projects/monitorthemepage.png",
+    description: "Project using - react, next.js",
+    gradient: ["#003300", "#66FF99"],
+    url: "https://landingpage212002.netlify.app/",
+    tech: ["vs-code-svgrepo-com","css-3-svgrepo-com","html-5-svgrepo-com","javascript-svgrepo-com","bootstrap-4-logo-svgrepo-com"],
+
+  },
+  {
+    name: "Restaurant Page",
+    image: "/projects/restuarant.png",
+    blurImage:  "/projects/restuarant.png",
+    description: "Project using - Html, Css, Js, Bootstrap-5",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://restaurantwebsite212002.netlify.app//",
+    tech: ["css-3-svgrepo-com","vs-code-svgrepo-com","html-5-svgrepo-com","javascript-svgrepo-com","bootstrap-4-logo-svgrepo-com"],
+  },
+  {
+    name: "Spotify Clone",
+    image: "/projects/spotify.png",
+    blurImage:  "/projects/spotify.png",
+    description: "Project using - Html, Css, Js, Bootstrap-5",
+    gradient: ["#330033", "#9966FF"],
+    url: "https://spotifyclone212002.netlify.app/",
+    tech: ["css-3-svgrepo-com","html-5-svgrepo-com","vs-code-svgrepo-com","javascript-svgrepo-com","bootstrap-4-logo-svgrepo-com"],
+
+  },
+  {
+    name: "Calculator App",
+    image: "/projects/calculator.png",
+    blurImage:  "/projects/calculator.png",
+    description: "Project using - Html, Css, Js, Bootstrap-5",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://respcalculator212002.netlify.app/",
+    tech: ["vs-code-svgrepo-com","css-3-svgrepo-com","html-5-svgrepo-com","javascript-svgrepo-com","bootstrap-4-logo-svgrepo-com"],
+
+  },
+  {
+    name: "Application Form",
+    image: "/projects/jobapplication.png",
+    blurImage:  "/projects/jobapplication.png",
+    description: "Project using - Html, Css, Js, Bootstrap-5",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://jobapplication21012002.netlify.app/",
+    tech: ["css-3-svgrepo-com","vs-code-svgrepo-com","html-5-svgrepo-com","javascript-svgrepo-com","bootstrap-4-logo-svgrepo-com"],
+  },
+  
 ];
 
 
 
-
+// GAMEPROJECT
 export const GAMEPROJECT = [
-  {
-    name: "Car Price Prediction",
-    image: "/projects/carprice2.png",
-    blurImage: "/projects/blur/carpriceblur.png", 
-    description: "Car Price Prediction using - Python/Flask + Machine Learning 🚕",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://carprice-w4i6.onrender.com/",
-    tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
-  },
-  {
-    name: "RAG/Fine-tuning PDF Chat",
-    image: "/projects/Ragpdf2.png",
-    blurImage: "/projects/blur/ragblur.png",
-    description: "Mulit PDF Chat using - Langchain + GenAI + OpenAI/Mistral/Ollama 🤖",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://super-chat-pdf.streamlit.app/",
-    tech: ["openai-svgrepo-com","mistral-ai-icon", "tensorflow-svgrepo-com", "parrot-svgrepo-com","ollama"],
-  },
+  // {
+  //   name: "Car Price Prediction",
+  //   image: "/projects/carprice2.png",
+  //   blurImage: "/projects/blur/carpriceblur.png", 
+  //   description: "Car Price Prediction using - Python/Flask + Machine Learning 🚕",
+  //   gradient: ["#F14658", "#DC2537"],
+  //   url: "https://carprice-w4i6.onrender.com/",
+  //   tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
+  // },
+
 ];
 
 
@@ -322,24 +361,16 @@ export const GAMEPROJECT = [
 
 
 export const CLGPROJECT = [
-  {
-    name: "Car Price Prediction",
-    image: "/projects/carprice2.png",
-    blurImage: "/projects/blur/carpriceblur.png", 
-    description: "Car Price Prediction using - Python/Flask + Machine Learning 🚕",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://carprice-w4i6.onrender.com/",
-    tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
-  },
-  {
-    name: "RAG/Fine-tuning PDF Chat",
-    image: "/projects/Ragpdf2.png",
-    blurImage: "/projects/blur/ragblur.png",
-    description: "Mulit PDF Chat using - Langchain + GenAI + OpenAI/Mistral/Ollama 🤖",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://super-chat-pdf.streamlit.app/",
-    tech: ["openai-svgrepo-com","mistral-ai-icon", "tensorflow-svgrepo-com", "parrot-svgrepo-com","ollama"],
-  },
+  // {
+  //   name: "Car Price Prediction",
+  //   image: "/projects/carprice2.png",
+  //   blurImage: "/projects/blur/carpriceblur.png", 
+  //   description: "Car Price Prediction using - Python/Flask + Machine Learning 🚕",
+  //   gradient: ["#F14658", "#DC2537"],
+  //   url: "https://carprice-w4i6.onrender.com/",
+  //   tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
+  // },
+
 ];
 
 

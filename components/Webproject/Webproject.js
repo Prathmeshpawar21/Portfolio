@@ -82,7 +82,7 @@ const Webproject = ({ isDesktop, clientHeight }) => {
 
   return (
    
-
+ 
     <section
       ref={sectionRef}
       id={MENULINKS[2].ref}
@@ -102,8 +102,9 @@ const Webproject = ({ isDesktop, clientHeight }) => {
           <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
             Web Devlopment 
           </h1>
-          <h2 className="text-[1.65rem] font-medium md:max-w-lg max-w-sm mt-2 staggered-reveal">
-          Past Frontend Projects{" "}
+          
+          <h2 className="text-[1rem] font-light md:max-w-lg max-w-sm mt-0">
+            Past Frontend Projects
           </h2>
         </div>
 

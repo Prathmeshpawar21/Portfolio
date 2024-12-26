@@ -74,7 +74,7 @@ const PastProjects = () => {
               <div className="staggered-reveal pt-2">
                 
              
-              <Button href="/pastProjectDashboard/" classes="link" type="primary" >View Projects 
+              <Button href="/pastProjectDashboard/" classes="link" type="primary" >View All Projects 
             
               </Button>
 

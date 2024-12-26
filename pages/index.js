@@ -74,12 +74,12 @@ export default function Home() {
             <Hero />
             {/* <Clgproject/> */}
             <About1 clientHeight={clientHeight} />
-
-            <PastProjects />
-
             <Skills />
             <About2 clientHeight={clientHeight} />
             <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
+
+            <PastProjects />
+
             <Work isDesktop={isDesktop} />
             <Collaboration clientHeight={clientHeight} />
             <Contact isDesktop={isDesktop} clientHeight={clientHeight}/>

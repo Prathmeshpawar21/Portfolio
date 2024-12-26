@@ -1,13 +1,12 @@
 import { useEffect, useRef } from "react";
-import { MENULINKS,  GAMEPROJECT} from "../../constants";
+import { MENULINKS } from "../../constants";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import ProjectTile from "./ProjectTile/ProjectTile";
-import Button from "../Button/Button";
 
 const Gameproject = ({ isDesktop, clientHeight }) => {
   const sectionRef = useRef(null);
   const sectionTitleRef = useRef(null);
+  const quoteRef = useRef(null);
 
   useEffect(() => {
     let projectsScrollTrigger;
@@ -18,8 +17,10 @@ const Gameproject = ({ isDesktop, clientHeight }) => {
     } else {
       const projectWrapper =
         sectionRef.current.querySelector(".project-wrapper");
-      projectWrapper.style.width = "calc(100vw - 1rem)";
-      projectWrapper.style.overflowX = "scroll";
+      if (projectWrapper) {
+        projectWrapper.style.width = "calc(100vw - 1rem)";
+        projectWrapper.style.overflowX = "scroll";
+      }
     }
 
     const [revealTimeline, revealScrollTrigger] = getRevealSt();
@@ -54,30 +55,36 @@ const Gameproject = ({ isDesktop, clientHeight }) => {
 
   const getProjectsSt = () => {
     const timeline = gsap.timeline({ defaults: { ease: "none" } });
-    const sidePadding =
-      document.body.clientWidth -
-      sectionRef.current.querySelector(".inner-container").clientWidth;
-    const elementWidth =
-      sidePadding +
-      sectionRef.current.querySelector(".project-wrapper").clientWidth;
-    sectionRef.current.style.width = `${elementWidth}px`;
-    const width = window.innerWidth - elementWidth;
-    const duration = `${(elementWidth / window.innerHeight) * 100}%`;
-    timeline
-      .to(sectionRef.current, { x: width })
-      .to(sectionTitleRef.current, { x: -width }, "<");
 
-    const scrollTrigger = ScrollTrigger.create({
-      trigger: sectionRef.current,
-      start: "top top",
-      end: duration,
-      scrub: 0,
-      pin: true,
-      animation: timeline,
-      pinSpacing: "margin",
-    });
+    const projectWrapper = sectionRef.current.querySelector(".project-wrapper");
 
-    return [timeline, scrollTrigger];
+    if (projectWrapper) {
+      const sidePadding =
+        document.body.clientWidth -
+        sectionRef.current.querySelector(".inner-container").clientWidth;
+      const elementWidth = sidePadding + projectWrapper.clientWidth;
+      sectionRef.current.style.width = `${elementWidth}px`;
+      const width = window.innerWidth - elementWidth;
+      const duration = `${(elementWidth / window.innerHeight) * 100}%`;
+      timeline
+        .to(sectionRef.current, { x: width })
+        .to(sectionTitleRef.current, { x: -width }, "<");
+
+      const scrollTrigger = ScrollTrigger.create({
+        trigger: sectionRef.current,
+        start: "top top",
+        end: duration,
+        scrub: 0,
+        pin: true,
+        animation: timeline,
+        pinSpacing: "margin",
+      });
+
+      return [timeline, scrollTrigger];
+    } else {
+      // Return empty timeline and scrollTrigger if the element doesn't exist
+      return [gsap.timeline(), null];
+    }
   };
 
   return (
@@ -86,9 +93,10 @@ const Gameproject = ({ isDesktop, clientHeight }) => {
       id={MENULINKS[2].ref}
       className={`${
         isDesktop && "min-h-screen"
-      } w-full relative select-none section-container transform-gpu`}
+      } w-full relative select-none section-container`}
     >
-      <div className="flex flex-col py- justify-center h-full">
+      {/* Section Content */}
+      <div className="my-[10rem] flex flex-col justify-center h-full">
         <div
           className="flex flex-col inner-container transform-gpu"
           ref={sectionTitleRef}
@@ -96,31 +104,105 @@ const Gameproject = ({ isDesktop, clientHeight }) => {
           <p className="uppercase tracking-widest text-gray-light-1 staggered-reveal">
             PROJECTS
           </p>
-          <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
-            Game Devlopment 
+          <h1 className="text-6xl mt-2 font-medium text-gradient w-fit ">
+            Game Development
           </h1>
-          <h2 className="text-[1.65rem] font-medium md:max-w-lg max-w-sm mt-2 staggered-reveal">
-          Past Gaming Projects{" "}
+          <h2 className="text-[1rem] font-light md:max-w-lg max-w-sm mt-0">
+            Past Gaming Projects
           </h2>
         </div>
 
-        <div
-          className={`${
-            clientHeight > 650 ? "mt-12" : "mt-8"
-          } flex project-wrapper no-scrollbar w-fit staggered-reveal`}
-        >
-          {GAMEPROJECT.map((project, index) => (
-            <ProjectTile
-              classes={
-                index === GAMEPROJECT.length - 1 ? "" : "mr-10 xs:mr-12 sm:mr-16"
-              }
-              project={project}
-              key={project.name}
-            />
-          ))}
-        </div>
-      </div>
+        
 
+        {/* Video Frame Before the Section Content */}
+
+
+
+
+        <div className={`${clientHeight > 650 ? "mt-6" : "mb-2"} `}>
+          <h1
+            ref={quoteRef}
+            className="font-bold text-[1rem] md:text-2xl lg:text-[2rem] text-center float-left mt-0 mb-0 pb-0"
+          >
+            Snow-Dash Game{" "}
+          </h1>
+        </div>
+
+
+
+
+        
+<div className="flex-col justify-center">
+
+  {/* Video Section 1 */}
+  <div className="w-full">
+      <div className="mt-3 relative overflow-hidden pb-[40%] h-0" style={{ float: "left", width: "70%" }}>
+        <iframe
+        style={{ borderRadius: '20px' }} 
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://player.vimeo.com/video/1042219340?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+          title="snowboard"
+        ></iframe>
+      </div>
+  </div>
+
+  <div>
+
+  </div>
+</div>
+
+<p className="my-3 tracking-widest text-gray-light-1  mb-5">
+    Developed With : Unity-5 , C#, C+, Js
+  </p>
+
+<div className="my-10">
+  {/* <hr className="my-6"></hr> */}
+</div>
+
+
+
+<div className={`${clientHeight > 650 ? "mt-6" : "mb-2"} `}>
+          <h1
+            ref={quoteRef}
+            className="font-bold text-[1rem] md:text-2xl lg:text-[2rem] text-center float-left mt-0 mb-0 pb-0"
+          >
+            Car-Driving Game{" "}
+          </h1>
+        </div>
+
+<div className="flex-col justify-center">
+  {/* Video Section 2 */}
+  <div className="w-full">
+      <div className="mt-3 relative overflow-hidden pb-[40%] h-0" style={{ float: "left", width: "70%" }}>
+        <iframe
+        style={{ borderRadius: '20px' }} 
+          className="absolute top-0 left-0 w-full h-full"
+          src="https://player.vimeo.com/video/1042219308?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+          title="snowboard"
+        ></iframe>
+      </div>
+  </div>
+  
+</div>
+
+
+<p className=" my-3 tracking-widest text-gray-light-1  mb-5" >
+Developed With : Unity-5 , C#, C+, Js
+    
+  </p>
+
+
+
+
+
+{/* 1042219308 */}
+        {/* Video Frame Before the Section Content */}
+        {/* Project Wrapper Removed */}
+      </div>
     </section>
   );
 };
