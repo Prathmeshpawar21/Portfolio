@@ -226,7 +226,7 @@ const SystemSpecs = () => {
             <div className="w-full px-2 mb-4">
               <div className="bg-gray-100 rounded-lg shadow-md hover:bg-gray-200 transition duration-300 flex justify-start">
                 <div>
-                  <h3 className="text-[1.8rem] font-semibold">LED's WS2812B</h3>
+                  <h3 className="text-[1.8rem] font-semibold">LED&apos;s WS2812B</h3>
                   <h4 className="text-gray-200 text-[1.2rem] font-medium">
                     5V Strip
                   </h4>
@@ -268,7 +268,7 @@ const SystemSpecs = () => {
               <div className="bg-gray-100 rounded-lg shadow-md hover:bg-gray-200 transition duration-300 flex justify-start">
                 <div>
                   <h3 className="text-[1.8rem] font-semibold">
-                    MacBook Air 15"
+                    MacBook Air 15&quot;
                   </h3>
                   <h4 className="text-gray-200 text-[1.2rem] font-medium">
                     M3 Air 2023, 8GB Memory, 1TB SSD
@@ -283,7 +283,7 @@ const SystemSpecs = () => {
               <div className="bg-gray-100 rounded-lg shadow-md hover:bg-gray-200 transition duration-300 flex justify-start">
                 <div>
                   <h3 className="text-[1.8rem] font-semibold">
-                    Lenovo S145 14"
+                    Lenovo S145 14&quot;
                   </h3>
                   <h4 className="text-gray-200 text-[1.2rem] font-medium">
                     8GB RAM | 1TB HDD | AMD-A6
