@@ -578,7 +578,7 @@ export const ColoredLineFull = ({ color, width }) => (
           backgroundColor: color,
           height: 1,
           width:width,
-          marginTop: 10,
+          marginTop:100,
       }}
   />
 );

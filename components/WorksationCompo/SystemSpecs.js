@@ -14,7 +14,7 @@ const SystemSpecs = () => {
 
 
       {/* Workstation */}
-      <section className="flex flex-wrap py-[8rem] px-8 justify-center mb-12">
+      <section className="flex flex-wrap py-[8rem] px-8 justify-center mb-10">
         {/* Title Section */}
         <div
           className="w-full md:w-1/3 flex items-center  mb-8 md:mb-0"
@@ -184,7 +184,7 @@ const SystemSpecs = () => {
               </div>
             </div>
 
-            <div className="w-full px-2 mb-4 py-10">
+            <div className="w-full px-2 mb-4 py-8">
               ______________________________________
             </div>
 
@@ -219,7 +219,7 @@ const SystemSpecs = () => {
               </div>
             </div>
 
-            <div className="w-full px-2 mb-4 py-10">
+            <div className="w-full px-2 mb-4 py-8">
               ______________________________________
             </div>
             {/* LED */}
@@ -240,7 +240,7 @@ const SystemSpecs = () => {
       </section>
 
       {/* Laptops */}
-      <section className="flex flex-wrap py-[8rem] px-8 justify-center mb-12">
+      <section className="flex flex-wrap py-[3rem]  px-8 justify-center mb-12">
         {/* Title Section */}
         <div
           className="w-full md:w-1/3 flex items-center  mb-8 md:mb-0"
@@ -301,7 +301,7 @@ const SystemSpecs = () => {
       </section>
 
       {/* accessories */}
-      <section className="flex flex-wrap py-[8rem] px-8 justify-center mb-12">
+      <section className="flex flex-wrap py-[3rem] px-8 justify-center mb-12">
         {/* Title Section */}
         <div
           className="w-full md:w-1/3 flex items-center  mb-8 md:mb-0"
@@ -368,7 +368,6 @@ const SystemSpecs = () => {
 
 
         
-          <ColoredLineFull color="gray" width='100%' />
 
 
 

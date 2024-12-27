@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { MENULINKS } from "../../constants";
+import { MENULINKS, ColoredLineFull } from "../../constants";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
@@ -149,6 +149,8 @@ const Wstation = ({ isDesktop, clientHeight }) => {
   aspectRatio="50%" // Custom aspect ratio
 />
 
+<ColoredLineFull color="gray" width='100%' />
+
 
 {/* <VideoTemplate
   src="https://player.vimeo.com/video/1042311897?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
@@ -158,42 +160,10 @@ const Wstation = ({ isDesktop, clientHeight }) => {
 /> */}
 
 
-
-
-        <div className={`${clientHeight > 650 ? "mt-[80rem]" : "mb-2"} `}>
-          <h1
-            ref={quoteRef}
-            className="font-bold text-[1rem] md:text-2xl lg:text-[2rem] text-center float-left mt-0 mb-0 pb-0"
-          >
-            Automated Fuel System{" "}
-          </h1>
-
-          <h2 className="text-[1rem] font-light md:max-w-lg max-w-sm mt-0 mt-50">
-            Guru-Gobind-Singh College of Engineering (B.E)
-          </h2>
-        </div>
-
-        <div className="flex-col justify-center">
-          {/* Video Section 1 */}
-          <div className="w-full">
-            <div
-              className="mt-3 relative overflow-hidden pb-[40%] h-0"
-              style={{ float: "left", width: "70%" }}
-            >
-              
-            </div>
-          </div>
-
-          <div></div>
-        </div>
-
-        <p className=" my-3 tracking-widest text-gray-light-1  mb-5">
-          Developed With : IOT-Arduino Uno R3, PlatformIO, C++
-        </p>
-
-        {/* Video Frame Before the Section Content */}
-        {/* Project Wrapper Removed */}
       </div>
+
+
+      
     </section>
   );
 };
