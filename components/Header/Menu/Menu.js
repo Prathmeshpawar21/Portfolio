@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { MENULINKS } from "../../../constants";
+import { MENULINKS, MENULINKSWORKSTATION } from "../../../constants";
 
 const Menu = () => {
   useEffect(() => {
@@ -23,6 +23,16 @@ const Menu = () => {
                 <a
                   className="link relative inline font-mono font-bold text-5xl duration-300 hover:no-underline"
                   href={`#${el.ref}`}
+                >
+                  {el.name}
+                </a>
+              </li>
+            ))}
+            {MENULINKSWORKSTATION.map((el) => (
+              <li key={el.name} className="p-0 m-6 text-2xl block">
+                <a
+                  className="link relative inline font-mono font-bold text-5xl duration-300 hover:no-underline"
+                  href={`${el.ref}`}
                 >
                   {el.name}
                 </a>

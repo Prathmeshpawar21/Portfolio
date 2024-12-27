@@ -17,8 +17,10 @@ import Aboutforproject from "@/components/About/Aboutforproject";
 import Webproject from "@/components/Webproject/Webproject";
 import Gameproject from "@/components/Gameproject/Gameproject";
 
-import Engproject from "@/components/Engproject/Engproject"
+import Engproject from "@/components/Engproject/Engproject";
+import Wstation from "@/components/Wstation/Wstation";
 
+Wstation
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
@@ -66,16 +68,11 @@ export default function Home() {
               role="img"
               className="text-gray-light-1 opacity-10 sm:text-9xl xs:text-8xl inline-block -z-10 absolute rotate-90 right-0 md:top-52 xs:top-96"
             >
-              Activity
+              WORK
             </div>
             <div className="fixed top-0 left-0 h-screen w-screen -z-1" />
 
-            <Aboutforproject clientHeight={clientHeight} />
-            
-            <DsProjects isDesktop={isDesktop} clientHeight={clientHeight} />
-            <Webproject isDesktop={isDesktop} clientHeight={clientHeight}/>
-            <Gameproject isDesktop={isDesktop} clientHeight={clientHeight}/>
-            <Engproject isDesktop={isDesktop} clientHeight={clientHeight}/>
+         <Wstation isDesktop={isDesktop} clientHeight={clientHeight}/>
 
 
 

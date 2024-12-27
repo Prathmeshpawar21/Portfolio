@@ -43,6 +43,14 @@ export const MENULINKS = [
   },
 ];
 
+export const MENULINKSWORKSTATION = [
+  {
+    name: "Workstation",
+    ref: "workstation",
+  },
+];
+
+
 export const TYPED_STRINGS = [
   "A professional Data Scientist",
   "Expert in Machine Learning and Analytics.",
@@ -426,20 +434,36 @@ export const WORK_CONTENTS = {
   DUKAAN: [
     {
       title: "Stylio Store",
-      exp: "- 2 years",
+      exp: "+ 2 years",
       role: "(Founder & Owner)",
       description:
         "An online platform offering a wide range of high-quality products, designed to provide customers with a seamless and convenient shopping experience",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Revolutionizing commerce, one click at a time
+          Founder & Owner
         </div>
       ),
     },
     {
-      title: "Transformation",
+      title: "Skills Acquired",
       description:
-        "In 2023, our dropshipping platform, based in India, faced challenges with product availability and customer experience. Leading a small team, we streamlined our product selection, improved order tracking, and optimized the website for faster checkouts. These updates enhanced customer satisfaction, reduced delays, and helped us grow by offering the latest trendy products more efficiently to Indian customers.",
+      <div>
+        <li> <strong>E-commerce Management :</strong> Built and optimized a Shopify dropshipping website from scratch.</li>
+
+        <li> <strong>Order Fulfillment :</strong> Managed deliveries through Shiprocket to ensure timely shipments.</li>
+
+        <li> <strong>Digital Marketing :</strong> Executed targeted campaigns to increase traffic and conversions.</li>
+        
+        <li> <strong>Financial Oversight :</strong> Managed budgeting and cost optimization to maintain profitability.</li>
+
+        <li> <strong>Problem-Solving :</strong> Adapted to challenges and optimized fulfillment strategies.</li>
+
+
+        </div>
+
+        
+        
+        ,
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Founder & Owner
@@ -456,16 +480,16 @@ export const WORK_CONTENTS = {
         </div>
       ),
     },
-    {
-      title: "Optimization",
-      description:
-        "We continuously optimize our dropshipping platform by refining product selection, improving website speed, and enhancing order tracking to ensure a smooth and efficient shopping experience for customers.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Founder & Owner
-        </div>
-      ),
-    },
+    // {
+    //   title: "Optimization",
+    //   description:
+    //     "We continuously optimize our dropshipping platform by refining product selection, improving website speed, and enhancing order tracking to ensure a smooth and efficient shopping experience for customers.",
+    //   content: (
+    //     <div className="h-full w-full flex items-center justify-center text-white px-4">
+    //       Founder & Owner
+    //     </div>
+    //   ),
+    // },
   ],
 
 
@@ -473,13 +497,13 @@ export const WORK_CONTENTS = {
   AVIATE: [
     {
       title: "Zscaler",
-      exp: "- 3 months",
+      exp: "+ 3 months",
       role: "(Virtual Intern)",
       description:
         "Zero Trust Cloud Security Virtual Internship at Zscaler (AICTE Provider)",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Finding the right job isn&apos;t fate, it&apos;s navigation
+          Virtual Internship
         </div>
       ),
     },
@@ -489,7 +513,7 @@ export const WORK_CONTENTS = {
         "During the Zero Trust Cloud Security Virtual Internship, I gained a strong understanding of cloud security principles, including Zero Trust architecture, access control, and network traffic monitoring. I developed skills in implementing security protocols, protecting data, and managing access within cloud environments, all while enhancing my knowledge of modern cybersecurity practices.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Virtual Intern
+          Virtual Internship
         </div>
       ),
     },
@@ -500,7 +524,7 @@ export const WORK_CONTENTS = {
   SPACENOS: [
     {
       title: "Application Square Infotech Pvt Ltd",
-      exp: "- 2 months",
+      exp: "+ 2 months",
 
       role: "(Web Developer Intern)",
 
@@ -508,8 +532,7 @@ export const WORK_CONTENTS = {
         "Application Square Infotech is a web development startup specializing in scalable, user-friendly web solutions using React, Flask, and modern technologies.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          During my internship, I contributed to developing responsive web pages using HTML, CSS, and JavaScript while also working with Bootstrap for UI design. I built interactive features and applications using React and Flask, optimizing the user experience and ensuring functionality across devices.
-        </div>
+          Web Developer Intern</div>
       ),
     },
     {
@@ -542,6 +565,19 @@ export const ColoredLine = ({ color }) => (
           backgroundColor: color,
           height: 1,
           width:900,
+          marginTop: 10,
+      }}
+  />
+);
+
+
+export const ColoredLineFull = ({ color, width }) => (
+  <hr
+      style={{
+          color: color,
+          backgroundColor: color,
+          height: 1,
+          width:width,
           marginTop: 10,
       }}
   />

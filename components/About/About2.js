@@ -41,7 +41,7 @@ const About2 = ({ clientHeight }) => {
           ref={quoteRef}
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
-          I bring a proactive approach, constantly striving for {" "}
+          Creating innovative AI, ML solutions to  {" "}  
           <span
             className="about-3 font-bold"
             style={{
@@ -52,9 +52,9 @@ const About2 = ({ clientHeight }) => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            excellence & innovative solutions
+            solve business challenges
           </span>{" "}
-          in every project I tackle.
+          and deliver measurable results with precision and success
         </h1>
       </div>
     </section>
