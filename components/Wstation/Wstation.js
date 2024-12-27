@@ -4,7 +4,9 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 import Imgcomp from "@/components/WorksationCompo/Imgcomp";
+
 import SystemSpecs from "@/components/WorksationCompo/SystemSpecs";
+import VideoTemplate from "@/components/Customization/VideoTemplate";
 
 const Wstation = ({ isDesktop, clientHeight }) => {
   const sectionRef = useRef(null);
@@ -140,8 +142,20 @@ const Wstation = ({ isDesktop, clientHeight }) => {
         
       <SystemSpecs/>
 
+      <VideoTemplate
+  src="https://player.vimeo.com/video/1042456040?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+  className="my-4" // Add extra Tailwind classes
+  width="80%" // Custom width
+  aspectRatio="50%" // Custom aspect ratio
+/>
 
 
+<VideoTemplate
+  src="https://player.vimeo.com/video/1042311897?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+  className="my-4" // Add extra Tailwind classes
+  width="80%" // Custom width
+  aspectRatio="50%" // Custom aspect ratio
+/>
 
 
 
