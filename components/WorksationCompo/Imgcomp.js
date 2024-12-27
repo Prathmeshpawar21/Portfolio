@@ -7,7 +7,7 @@ const Imgcomp = ({ src, alt = "Image", className = "" }) => {
         src={src} // Dynamic src
         alt={alt} // Dynamic alt text
         className={`rounded-2xl w-full max-w-screen-lg h-auto object-cover shadow-2xl shadow-white-500/50 ${className}`} // Rounded corners and dynamic classes
-        style={{ boxShadow: '0 0 25px 20px rgb(255, 255, 255)' }} // Larger spread
+        style={{ boxShadow: '0 0 30px 5px rgba(255, 255, 255, 0.44)' }} // Larger spread
       />
 
 

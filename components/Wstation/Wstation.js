@@ -150,12 +150,12 @@ const Wstation = ({ isDesktop, clientHeight }) => {
 />
 
 
-<VideoTemplate
+{/* <VideoTemplate
   src="https://player.vimeo.com/video/1042311897?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
   className="my-4" // Add extra Tailwind classes
   width="80%" // Custom width
   aspectRatio="50%" // Custom aspect ratio
-/>
+/> */}
 
 
 

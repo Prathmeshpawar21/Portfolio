@@ -139,7 +139,7 @@ const Engproject = ({ isDesktop, clientHeight }) => {
   <div className="w-full">
       <div className="mt-3 relative overflow-hidden pb-[40%] h-0" style={{ float: "left", width: "70%" }}>
         <iframe
-        style={{ borderRadius: '20px' }} 
+        style={{ borderRadius: '30px' }} 
           className="absolute top-0 left-0 w-full h-full"
           src="https://player.vimeo.com/video/1042246602?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           frameborder="0"
