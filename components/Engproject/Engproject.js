@@ -97,7 +97,7 @@ const Engproject = ({ isDesktop, clientHeight }) => {
       } w-full relative select-none section-container`}
     >
       {/* Section Content */}
-      <div className="my-[10rem] flex flex-col justify-center h-full">
+      <div className="my-[5rem] flex flex-col justify-center h-full">
         <div
           className="flex flex-col inner-container transform-gpu"
           ref={sectionTitleRef}

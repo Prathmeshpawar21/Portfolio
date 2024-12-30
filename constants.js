@@ -350,15 +350,15 @@ export const WEBPROJECT = [
 
 // GAMEPROJECT
 export const GAMEPROJECT = [
-  {
-    name: "Car Price Prediction",
-    image: "/projects/carprice2.png",
-    blurImage: "/projects/blur/carpriceblur.png", 
-    description: "Car Price Prediction using - Python/Flask + Machine Learning 🚕",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://carprice-w4i6.onrender.com/",
-    tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
-  },
+  // {
+  //   name: "Car Price Prediction",
+  //   image: "/projects/carprice2.png",
+  //   blurImage: "/projects/blur/carpriceblur.png", 
+  //   description: "Car Price Prediction using - Python/Flask + Machine Learning 🚕",
+  //   gradient: ["#F14658", "#DC2537"],
+  //   url: "https://carprice-w4i6.onrender.com/",
+  //   tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
+  // },
 
 ];
 
@@ -370,15 +370,15 @@ export const GAMEPROJECT = [
 
 
 export const CLGPROJECT = [
-  {
-    name: "Car Price Prediction",
-    image: "/projects/carprice2.png",
-    blurImage: "/projects/blur/carpriceblur.png", 
-    description: "Car Price Prediction using - Python/Flask + Machine Learning 🚕",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://carprice-w4i6.onrender.com/",
-    tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
-  },
+  // {
+  //   name: "Car Price Prediction",
+  //   image: "/projects/carprice2.png",
+  //   blurImage: "/projects/blur/carpriceblur.png", 
+  //   description: "Car Price Prediction using - Python/Flask + Machine Learning 🚕",
+  //   gradient: ["#F14658", "#DC2537"],
+  //   url: "https://carprice-w4i6.onrender.com/",
+  //   tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
+  // },
 
 ];
 
