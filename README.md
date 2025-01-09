@@ -36,8 +36,8 @@ This portfolio showcases my professional journey, projects, and skills as a Data
 
 Feel free to connect with me:
 - **📧 Email**: prathmeshpawar212002@gmail.com
-- **💼 LinkedIn**: [Your LinkedIn](www.linkedin.com/in/prathameshpawar21)
-- **🐙 GitHub**: [Your GitHub](https://github.com/Prathmeshpawar21)
+- **💼 LinkedIn**: [My LinkedIn](https://www.linkedin.com/in/prathameshpawar21/)
+- **🐙 GitHub**: [My GitHub](https://github.com/Prathmeshpawar21)
 
 ---
 
