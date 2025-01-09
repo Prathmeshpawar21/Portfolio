@@ -1,4 +1,4 @@
-# Portfolio Website
+# Prathamesh J. Pawar
 
 Welcome to my personal portfolio website! This repository contains the code and resources for my portfolio, hosted at [Live](https://prathameshpawar-mu.vercel.app/).
 
