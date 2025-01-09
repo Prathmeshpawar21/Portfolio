@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Welcome to my personal portfolio website! This repository contains the code and resources for my portfolio, hosted at [prathameshpawar-mu.vercel.app](https://prathameshpawar-mu.vercel.app/).
+Welcome to my personal portfolio website! This repository contains the code and resources for my portfolio, hosted at [Live](https://prathameshpawar-mu.vercel.app/).
 
 ## About the Website
 
@@ -51,7 +51,7 @@ This portfolio showcases my professional journey, projects, and skills as a Data
 
 ## Screenshot
 
-![Portfolio Website Screenshot](./screenshot.png)
+![Portfolio Website Screenshot](./public/pagepic.png)
 
 ## Deployment
 
