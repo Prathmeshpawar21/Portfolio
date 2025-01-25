@@ -101,7 +101,7 @@ const Hero = () => {
               {/* <Button href={`https://drive.google.com/uc?export=download&id=1rCrwGWNvSg0I43dRS6TkFXlqtYvGcHZi`}
                   classes="link" type="primary" > */}
 
-                  <Button href={`https://drive.google.com/uc?export=download&id=19rEHEu6IDkgIOaCcOYtSQADNoiwzp_Ro`}
+                  <Button href={`https://drive.google.com/uc?export=download&id=1YKMU6FbFdYCwQ0SVFETPiXbIWFhDE1je`}
                   classes="link" type="primary" >Get Resume
                   </Button>
                   
