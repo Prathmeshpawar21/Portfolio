@@ -1,7 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import Filter from "bad-words";
 import toast, { Toaster } from "react-hot-toast";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
+import { motion } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import mail from "./mailer";
@@ -273,7 +274,7 @@ const Contact = () => {
         </div>
 
         <form className="pt-10 sm:mx-auto sm:w-[30rem] md:w-[35rem] staggered-reveal">
-          <Fade bottom distance={"4rem"}>
+        <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <div className="relative">
               <input
                 type="text"
@@ -323,7 +324,7 @@ const Contact = () => {
                 Message
               </label>
             </div>
-          </Fade>
+            </motion.div>
 
           {mailerResponse !== "not initiated" &&
             (mailerResponse === "success" ? (

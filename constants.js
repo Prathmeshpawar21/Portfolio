@@ -178,6 +178,48 @@ otherGame: [],
 
 export const PROJECTS = [
   {
+    name: "RAG Multi-PDF Chat",
+    image: "/projects/Ragpdf2.png",
+    blurImage: "/projects/blur/ragblur.png",
+    description: "Mulit PDF Chat using - Langchain + GenAI + OpenAI/Mistral/Ollama 🤖",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "https://super-chat-pdf.streamlit.app/",
+    tech: ["openai-svgrepo-com","mistral-ai-icon", "tensorflow-svgrepo-com", "parrot-svgrepo-com","ollama"],
+  },
+
+
+  {
+    name: "RAG Analytics",
+    image: "/projects/hotelrag.png",
+    blurImage: "/projects/blur/hotelrag.png", 
+    description: "RAG Analytics on Hotel's DataFrame - Langchain + GenAI 🤖",
+    gradient: ["#000033", "#3366CC"],
+    url: "https://rag-data-analytics-df.streamlit.app/",
+    tech: ["parrot-svgrepo-com", "mistral-ai-icon","huggingface-2","ollama","icons8-streamlit",],
+  },
+  {
+    name: "Sentiment Review Analysis",
+    image: "/projects/sentimentpng.png",
+    blurImage: "/projects/blur/sentimentpng.png", 
+    description: "Sentiment Analysis using - Python/Streamlit + Machine Learning 🤖",
+    gradient: ["#8B0000", "#FF4500"],
+    url: "https://sentiment-analysis-prathamesh.streamlit.app/",
+    tech: ["python-svgrepo-com", "huggingface-2","icons8-streamlit","hadoop-svgrepo-com","machine-learning-03-svgrepo-com",],
+  },
+  {
+    name: "Task Extractor",
+    image: "/projects/taskExtractor.png",
+    blurImage: "/projects/blur/taskExtractor.png", 
+    description: "Task Extractor from List using - Python/Streamlit + Machine Learning 🤖",
+    gradient: ["#220033", "#660099"],
+    url: "https://task-extraction.streamlit.app/",
+    tech: ["python-svgrepo-com", "icons8-streamlit", "vs-code-svgrepo-com","machine-learning-03-svgrepo-com",],
+  },
+
+
+
+
+  {
     name: "Car Price Prediction",
     image: "/projects/carprice2.png",
     blurImage: "/projects/blur/carpriceblur.png", 
@@ -185,15 +227,6 @@ export const PROJECTS = [
     gradient: ["#F14658", "#DC2537"],
     url: "https://carprice-w4i6.onrender.com/",
     tech: ["python-svgrepo-com", "vs-code-svgrepo-com","css-3-svgrepo-com","machine-learning-03-svgrepo-com",  "flask-svgrepo-com",],
-  },
-  {
-    name: "RAG/Fine-tuning PDF Chat",
-    image: "/projects/Ragpdf2.png",
-    blurImage: "/projects/blur/ragblur.png",
-    description: "Mulit PDF Chat using - Langchain + GenAI + OpenAI/Mistral/Ollama 🤖",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://super-chat-pdf.streamlit.app/",
-    tech: ["openai-svgrepo-com","mistral-ai-icon", "tensorflow-svgrepo-com", "parrot-svgrepo-com","ollama"],
   },
   {
     name: "Medication Recommendation",

@@ -100,8 +100,12 @@ const DsProjects = ({ isDesktop, clientHeight }) => {
             Data Science
           </h1>
           <h2 className="text-[1rem] font-light md:max-w-lg max-w-sm mt-0">
-            Working...
+        AI/ML  |  Gen-AI  |  NLP  |  Deep Learning  |  Data Analytics 
           </h2>
+          <h3 className="text-[1rem] font-light md:max-w-lg max-w-sm mt-0 text-[#FFD700]">
+        Note: After Opening Wait for 2-3 min. due to server inactivitiy.  
+          </h3>
+
         </div>
 
         <div
